@@ -1,0 +1,19 @@
+/* File: font.css */
+@font-face {
+  font-family: "NoirProRegular";
+  src: local("NoirProRegular"),
+    url("../assets/fonts/NoirPro-Regular.woff") format("woff"),
+    url("../assets/fonts/NoirPro-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NoirProBold";
+  src: local("NoirProBold"),
+    url("../assets/fonts/NoirPro-Bold.woff") format("woff"),
+    url("../assets/fonts/NoirPro-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NoirProMedium";
+  src: url("../assets/fonts/NoirPro-Medium.woff") format("woff"),
+    url("../assets/fonts/NoirPro-Medium.woff") format("woff2");
+  font-weight: 500;
+}

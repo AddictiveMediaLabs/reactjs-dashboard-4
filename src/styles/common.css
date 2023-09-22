@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--regular);
+}
+
+:root {
+  --regular: "NoirProRegular";
+  --bold: "NoirProBold";
+  --medium: "NoirProMedium";
+}
+
+.text-regular {
+  font-family: var(--regular) !important;
+  font-weight: 400 !important;
+}
+.text-bold {
+  font-family: var(--bold) !important;
+  font-weight: 700 !important;
+}
+.text-medium {
+  font-family: var(--medium) !important;
+  font-weight: 500 !important;
+}
+.card {
+  border-radius: 15px !important;
+}
+
+.text-20 {
+  font-size: 1.25rem !important;
+  color: #282a2c;
+}
+.label {
+  color: #485058 !important;
+  font-size: 0.875rem !important;
+  font-family: var(--regular) !important;
+  font-weight: 400 !important;
+}
+.menu_item {
+  font-size: 0.875rem !important;
+  font-family: var(--medium) !important;
+  font-weight: 500 !important;
+  color: #3c3c3c;
+  font-style: normal;
+}
+.text-14 {
+  font-size: 0.875rem !important;
+  color: #3e3879;
+  font-weight: 400 !important;
+  font-family: var(--regular) !important;
+}
+.ms-2 {
+  margin-left: 0.5rem !important;
+}
