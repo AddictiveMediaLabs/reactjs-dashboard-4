@@ -28,7 +28,7 @@ function App() {
     setDate(event.target.value);
   };
   return (
-    <Box className="bg-[#F4F6F9] py-[90px]">
+    <Box className="bg-[#F4F6F9] md:py-[90px] py-[45px]">
       <Container className="p-[40px] bg-white rounded-[20px]">
         <div className="flex items-center justify-between">
           <Typography className="text-20 text-medium">
